@@ -1,3 +1,30 @@
+# MySQL_Les_jointures
+
+💪**Challenge**
+
+
+
+Tout d’abord, jeune sorcier, si tu n’as jamais eu l’occasion de voir des joueurs voler après un vif d’or sur leur balai Nimbus 2001 flambant neuf, regarde par ici (tu en apprends des choses à la Wild !)
+
+Modifie la table wizard afin qu’elle corresponde exactement au schéma ci-dessous, et vide là également de tout contenu (TRUNCATE ou DELETE).
+
+Crée les tables player et team comme indiquées sur la modélisation ci-dessous (noms et types des champs), en prenant soin de déclarer correctement les clés étrangères.
+
+Charge ensuite dans ta BDD ce fichier SQL et vérifie que tout s’est bien passé. Nous n'avons pas forcément respecté les vrais rôles des joueurs dans les livres, vérifie juste que tes requêtes renvoient bien les informations stockées en base de données.
+
+
+
+
+**Une fois ces données correctement chargées, écris les requêtes suivantes, et poste-les dans un Gist dont tu posteras le lien en solution :**
+
+Retourne les noms, prénoms, rôle et équipe de tous les joueurs, classés dans l’ordre alphabétique par équipe, puis par rôle dans l’équipe, puis par nom de famille, puis par prénom.
+
+Retourne uniquement les prénoms et noms des joueurs ayant le rôle de seeker (attrapeur), classés par ordre alphabétique de nom puis prénom
+
+Retourne la liste de tous les sorciers qui ne pratiquent pas le quidditch.
+
+
+
 mysql> SELECT wizard.lastname, wizard.firstname, player.role, team.name FROM player INNER JOIN wizard ON player.wizard_id=wizard.id INNER JOIN team ON player.team_id=team.id ORDER BY name, role, lastname, firstname;
 ERROR 1054 (42S22): Unknown column 'player.wizard_id' in 'on clause'
 mysql> 
