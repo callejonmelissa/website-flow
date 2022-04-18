@@ -1,0 +1,11 @@
+{
+    "name": "melissa/quete_composer",
+    "description": "quete composer",
+    "authors": [
+        {
+            "name": "Mélissa",
+            "email": "melissa-callejon_student2022@wilder.school"
+        }
+    ],
+    "require": {}
+}
