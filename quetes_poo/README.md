@@ -54,12 +54,9 @@ N'oublie pas les getters et les setters !!
 - Sur index.php, il est possible d'instancier autant d’objets Truck que désirés, sans provoquer d'erreur.
 - Sur index.php, les camions avancent, freinent et contrôlent leur chargement sans erreur.
 - Ton code est disponible sur GitHub.
+___________________________________
 
 **POO - Basics | Part 3 : Abstraction**
-
-
-
-
 
 💪 Challenge - On the road again
 
