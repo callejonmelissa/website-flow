@@ -48,13 +48,13 @@ Il a également une méthode qui permet de savoir s’il est plein ou non. Celle
 N'oublie pas les getters et les setters !!
 
 **✅ Critères de validation**
-Le nom de la classe est en anglais et en UpperCamelCase.
-La classe contient toutes les propriétés et méthodes demandées.
-Les noms des propriétés et des méthodes sont en anglais et en camelCase.
-Les visibilités public/private/protected sont correctement définies.
-Sur index.php, il est possible d'instancier autant d’objets Truck que désirés, sans provoquer d'erreur.
-Sur index.php, les camions avancent, freinent et contrôlent leur chargement sans erreur.
-Ton code est disponible sur GitHub.
+- Le nom de la classe est en anglais et en UpperCamelCase.
+- La classe contient toutes les propriétés et méthodes demandées. 
+- Les noms des propriétés et des méthodes sont en anglais et en camelCase.
+- Les visibilités public/private/protected sont correctement définies.
+- Sur index.php, il est possible d'instancier autant d’objets Truck que désirés, sans provoquer d'erreur.
+- Sur index.php, les camions avancent, freinent et contrôlent leur chargement sans erreur.
+- Ton code est disponible sur GitHub.
 
 **POO - Basics | Part 3 : Abstraction**
 
@@ -78,5 +78,5 @@ Astuce
 Tu peux t’aider de la fonction PHP instanceof() pour t’aider à déterminer le type de véhicule qui est mis en paramètre de la méthode addVehicle().
 
 **✅ Critères de validation**
-Les classes HighWay (abstraites) et MotorWay, PedestrianWay, ResidentialWay (finales) sont toutes les quatres créées, l’héritage et les propriétés/méthodes attendues sont présentes, ainsi que les valeurs par défaut.
-La classe HighWay possède une seule méthode abstraite, addVehicle(), implémentée de manière différente dans chacune de ses classes filles, en fonction des types de véhicules autorisés.
+- Les classes HighWay (abstraites) et MotorWay, PedestrianWay, ResidentialWay (finales) sont toutes les quatres créées, l’héritage et les propriétés/méthodes attendues sont présentes, ainsi que les valeurs par défaut.
+- La classe HighWay possède une seule méthode abstraite, addVehicle(), implémentée de manière différente dans chacune de ses classes filles, en fonction des types de véhicules autorisés.
