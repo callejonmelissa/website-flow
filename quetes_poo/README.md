@@ -1,4 +1,5 @@
 **POO - Basics | Part 1: Faire ses premières classes**
+
 💪 Challenge - Ma première classe
 
 Après le vélo, passons à un autre véhicule. Tu dois créer une classe permettant de manipuler un objet voiture.
@@ -32,6 +33,7 @@ Sur index.php, les vélos et voitures avancent et freinent sans erreur.
 Ton code est disponible sur GitHub.
 
 **POO - Basics | Part 2 : Héritage et parentalité**
+
 💪 Challenge - Créer ta première classe enfant
 
 Après les classes Car et Bicycle, tu dois créer une classe permettant de manipuler un objet camion.
@@ -55,6 +57,7 @@ Sur index.php, les camions avancent, freinent et contrôlent leur chargement san
 Ton code est disponible sur GitHub.
 
 **POO - Basics | Part 3 : Abstraction**
+
 💪 Challenge - On the road again
 
 Créer une classe abstraite HighWay possédant les propriétés suivantes :
