@@ -29,10 +29,7 @@ Et si tu es plutôt visuel, le :
 - Sur index.php, il est possible d'instancier autant d’objets Bicycle et Car que désirés, sans provoquer d'erreur.
 - Sur index.php, les vélos et voitures avancent et freinent sans erreur.
 - Ton code est disponible sur GitHub.
-
-
-
-
+___________________________________
 
 **POO - Basics | Part 2 : Héritage et parentalité**
 
