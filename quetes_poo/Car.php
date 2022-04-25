@@ -11,7 +11,8 @@ class Car extends Vehicle
 
     //Propriétés
     protected string $energy;
-    protected int $energyLevel; // est-ce qu'il faut mettre 50 ici ou dans l'index?
+    protected int $energyLevel;
+    private bool $hasParkBrake = false;
 
     //Méthode - Constructeur
     public function __construct(string $color, int $nbSeats, string $energy, int $nbWeels, int $energyLevel)
@@ -19,6 +20,17 @@ class Car extends Vehicle
         parent::__construct($color, $nbSeats, $nbWeels);
         $this->setEnergy = $energy;
         $this->setEnergyLevel = $energyLevel;
+    }
+
+    public function start(): string
+    {
+        if ($this->hasParkBrake === true) {
+            throw new Exception('Warning');
+        } else {
+            $this->currentSpeed = 15;
+            $this->energyLevel -= 5;
+            return "Go !";
+        }
     }
 
     //GETTERS SETTERS
@@ -48,4 +60,14 @@ class Car extends Vehicle
     }
 
 
+    public function getHasParkBrake(): bool
+    {
+        return $this->hasParkBrake;
+    }
+
+
+    public function setHasParkBrake(bool $true): void
+    {
+        $this->hasParkBrake = $true;
+    }
 }
