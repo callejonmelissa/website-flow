@@ -14,6 +14,14 @@
     $bicycle = new Bicycle("red", 1, 2);
     $truck = new Truck('black', 2, 4, 'gasoil', 500); //Couleurs, nombre de siège, énergie, capacité stockage
 
+   $car->setHasParkBrake(true);
+
+    try {
+        echo $car->start();
+    } catch (Exception $e) {
+        echo $e->getMessage() . PHP_EOL;
+        $car->setHasParkBrake(false);
+    } 
 
     echo $car->forward();
     echo $car->brake();
